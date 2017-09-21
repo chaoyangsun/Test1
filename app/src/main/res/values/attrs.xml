@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="titleText" format="string"/>
+    <attr name="titleTextColor" format="color"/>
+    <attr name="titleTextSize" format="dimension"/>
+    <attr name="image" format="reference"/>
+    <attr name="imageScaleType">
+        <enum name="fillXY" value="0"/>
+        <enum name="center" value="1"/>
+    </attr>
+
+
+    <declare-styleable name="ArcProgressbar">
+        <!-- 圆环起始角度-->
+        <attr name="startAngle" format="integer" />
+        <attr name="radius" format="integer" />
+        <!-- 圆环的宽度  默认115-->
+        <attr name="trokeWidth" format="integer" />
+        <!-- 进度条进度颜色 -->
+        <attr name="arcColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="MyView">
+        <attr name="titleText"/>
+        <attr name="titleTextColor"/>
+        <attr name="titleTextSize"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomImageView">
+        <attr name="image"/>
+        <attr name="titleText"/>
+        <attr name="titleTextColor"/>
+        <attr name="titleTextSize"/>
+        <attr name="imageScaleType"/>
+    </declare-styleable>
+</resources>
